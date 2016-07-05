@@ -34,7 +34,22 @@
         @RenderBody()
         <hr />
         <footer>
-            <p>&copy; @DateTime.Now.Year – iplus.by</p>
+			<div class="row">
+				<div class="col-md-3">
+					<label>PavelEvdokimovich</label>
+				</div>
+				<div class="col-md-6">
+					<p>@Html.ActionLink("О компании", "About", "Home")</p>
+					<p>@Html.ActionLink("Контакты", "Contact", "Home")</p>
+				</div>
+				<div class="col-md-3">
+					<p>&copy; @DateTime.Now.Year – iplus.by</p>
+				</div>
+			</div>
+			<div>
+
+			</div>
+            <!--<p>&copy; @DateTime.Now.Year – iplus.by</p>-->
         </footer>
     </div>
 
