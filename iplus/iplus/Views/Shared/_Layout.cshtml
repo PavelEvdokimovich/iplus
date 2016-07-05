@@ -35,15 +35,21 @@
         <hr />
         <footer>
 			<div class="row">
-				<div class="col-md-3">
+				<div class="col-md-2">
 					<label>PavelEvdokimovich</label>
 				</div>
-				<div class="col-md-6">
-					<p>@Html.ActionLink("О компании", "About", "Home")</p>
-					<p>@Html.ActionLink("Контакты", "Contact", "Home")</p>
+				<div class="col-md-8">
+					<ul class="nav navbar-nav">
+						<li>@Html.ActionLink("Каталог", "Index", "Home")</li>
+						<li>@Html.ActionLink("Доставка и оплата", "Index", "Home")</li>
+						<li>@Html.ActionLink("Спецпредложения", "Index", "Home")</li>
+						<li>@Html.ActionLink("О компании", "About", "Home")</li>
+						<li>@Html.ActionLink("Контакты", "Contact", "Home")</li>
+					</ul>
 				</div>
-				<div class="col-md-3">
+				<div class="col-md-2">
 					<p>&copy; @DateTime.Now.Year – iplus.by</p>
+					<label>+375 222 783000</label>
 				</div>
 			</div>
 			<div>
