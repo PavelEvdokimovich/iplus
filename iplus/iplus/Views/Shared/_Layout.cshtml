@@ -34,34 +34,9 @@
 		<div class="row">
 			<div class="col-md-3">
 				@Html.Partial("_Navigation")
-				
-				
-				<!--
-				<div class="panel panel-success">
-					<div class="panel-heading">
-						<h4>Каталог продукции</h4>
-					</div>
-					<div class="panel-body">
-						<ul class="nav nav-pills nav-stacked">
-							<li role="presentation" class="dropdown">
-								<a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-									Бумага и бумажные изделия <span class="caret"></span>
-								</a>
-								<ul class="dropdown-menu">
-									<li role="presentation">1</li>
-									<li>2</li>
-									<li>3</li>
-								</ul>
-							</li>
-							<li role="presentation"><a href="#">Канцелярские принадлежности</a></li>
-							<li role="presentation"><a href="#">Messages</a></li>
-						</ul>
-					</div>
-				</div>
-				-->
-
 			</div>
 			<div class="col-md-9">
+				@Html.Partial("_Search")
 				@RenderBody()
 			</div>
 		</div>
